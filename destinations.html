@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Destinations | Roamify</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+      </svg>
+      Roam<span>ify</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="destinations.html" class="active-link">DESTINATIONS</a></li>
+      <li><a href="packages.html">PACKAGES</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      <li><a href="wishlist.html">WISHLIST</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <main id="destinations">
+    <h2 class="section-title fade-in">Featured <span>Destinations</span></h2>
+    <div class="search-container fade-in">
+        <input type="text" id="dest-search" placeholder="Search by destination name or description..." />
+    </div>
+    <div class="grid" id="dest-grid">
+      
+      <!-- Destination 1 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=800&q=80" alt="Rome" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">Rome, Italy</h3>
+          <p class="card-desc">The Eternal City. Ancient history, stunning architecture, and unparalleled culinary experiences.</p>
+          <button class="btn btn-outline price-btn" data-dest="Rome">Check Price Info</button>
+        </div>
+      </div>
+      
+      <!-- Destination 2 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80" alt="Kerala" />
+        <div class="card-body">
+          <span class="card-badge">DOMESTIC</span>
+          <h3 class="card-title">Kerala, India</h3>
+          <p class="card-desc">God's Own Country. Serene backwaters, lush green tea gardens, and rich cultural heritage.</p>
+          <button class="btn btn-outline price-btn" data-dest="Kerala">Check Price Info</button>
+        </div>
+      </div>
+      
+      <!-- Destination 3 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80" alt="Paris" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">Paris, France</h3>
+          <p class="card-desc">The City of Light. Experience world-class art, fashion, and unforgettable romance.</p>
+          <button class="btn btn-outline price-btn" data-dest="Paris">Check Price Info</button>
+        </div>
+      </div>
+      
+      <!-- Destination 4 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=80" alt="Kyoto" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">Kyoto, Japan</h3>
+          <p class="card-desc">Ancient traditions, peaceful bamboo groves, and stunning cherry blossoms in spring.</p>
+          <button class="btn btn-outline price-btn" data-dest="Kyoto">Check Price Info</button>
+        </div>
+      </div>
+      
+      <!-- Destination 5 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=800&q=80" alt="Santorini" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">Santorini, Greece</h3>
+          <p class="card-desc">Whitewashed villages clustered on high cliffs over an underwater caldera.</p>
+          <button class="btn btn-outline price-btn" data-dest="Santorini">Check Price Info</button>
+        </div>
+      </div>
+      
+      <!-- Destination 6 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80" alt="Banff" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">Banff, Canada</h3>
+          <p class="card-desc">Crystal clear lakes reflecting the jagged peaks of the majestic Rocky Mountains.</p>
+          <button class="btn btn-outline price-btn" data-dest="Banff">Check Price Info</button>
+        </div>
+      </div>
+      
+      <!-- Destination 7 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80" alt="Maldives" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">The Maldives</h3>
+          <p class="card-desc">Private overwater bungalows and some of the world's most pristine coral reefs.</p>
+          <button class="btn btn-outline price-btn" data-dest="Maldives">Check Price Info</button>
+        </div>
+      </div>
+      
+      <!-- Destination 8 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=800&q=80" alt="Venice" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">Venice, Italy</h3>
+          <p class="card-desc">The floating city. Navigate historic canals and revel in Renaissance architecture.</p>
+          <button class="btn btn-outline price-btn" data-dest="Venice">Check Price Info</button>
+        </div>
+      </div>
+
+      <!-- Destination 9 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80" alt="Bali" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">Bali, Indonesia</h3>
+          <p class="card-desc">Lush jungles, vibrant coral reefs, and breathtaking volcanic mountains.</p>
+          <button class="btn btn-outline price-btn" data-dest="Bali">Check Price Info</button>
+        </div>
+      </div>
+
+      <!-- Destination 10 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=800&q=80" alt="Machu Picchu" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">Machu Picchu, Peru</h3>
+          <p class="card-desc">The lost city of the Incas nestled high in the Andes mountains.</p>
+          <button class="btn btn-outline price-btn" data-dest="Machu Picchu">Check Price Info</button>
+        </div>
+      </div>
+
+      <!-- Destination 11 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=800&q=80" alt="New York City" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">New York City, USA</h3>
+          <p class="card-desc">The city that never sleeps. Iconic skyline and vibrant culture.</p>
+          <button class="btn btn-outline price-btn" data-dest="New York City">Check Price Info</button>
+        </div>
+      </div>
+
+      <!-- Destination 12 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1580060839134-75a5edca2e99?auto=format&fit=crop&w=800&q=80" alt="Cape Town" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">Cape Town, South Africa</h3>
+          <p class="card-desc">Stunning coastal views nestled beneath the iconic Table Mountain.</p>
+          <button class="btn btn-outline price-btn" data-dest="Cape Town">Check Price Info</button>
+        </div>
+      </div>
+
+      <!-- Destination 13 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=800&q=80" alt="Sydney" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">Sydney, Australia</h3>
+          <p class="card-desc">Dazzling harbor views, beautiful beaches, and vibrant city life.</p>
+          <button class="btn btn-outline price-btn" data-dest="Sydney">Check Price Info</button>
+        </div>
+      </div>
+
+      <!-- Destination 14 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=800&q=80" alt="Swiss Alps" />
+        <div class="card-body">
+          <span class="card-badge">INTERNATIONAL</span>
+          <h3 class="card-title">Swiss Alps, Switzerland</h3>
+          <p class="card-desc">Pristine snow-capped mountains and world-class ski resort experiences.</p>
+          <button class="btn btn-outline price-btn" data-dest="Swiss Alps">Check Price Info</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Pricing Modal Popup -->
+  <div class="modal-overlay" id="pricing-modal">
+    <div class="modal-content" style="text-align: center;">
+      <button class="close-modal" id="close-pricing">&times;</button>
+      <h3 style="margin-bottom: 1rem; font-family: var(--font-serif); font-size: 2rem;">Destination Pricing</h3>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">The estimated price for <span id="pricing-dest-name" style="color: var(--primary); font-weight: bold;"></span></p>
+      <h2 style="font-size: 3rem; margin-bottom: 2rem; color: #fff;">₹75,000 <span style="font-size: 1rem; color: #a3a3a3;">/person</span></h2>
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">Contact us for a precise quote</a>
+    </div>
+  </div>
+
+  <!-- Global Footer -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-col logo-col">
+        <div class="logo" style="margin-bottom: 1rem;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+          </svg>
+          Roam<span>ify</span>
+        </div>
+        <p>Curating extraordinary journeys for the modern traveler. Explore the world's most captivating destinations with unmatched elegance and ease.</p>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><span>></span> <a href="index.html">About Us</a></li>
+          <li><span>></span> <a href="destinations.html">Destinations</a></li>
+          <li><span>></span> <a href="packages.html">Travel Packages</a></li>
+          <li><span>></span> <a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul class="footer-links">
+          <li><span>></span> <a href="contact.html">Contact Us</a></li>
+          <li><span>></span> <a href="packages.html">Our Packages</a></li>
+          <li><span>></span> <a href="destinations.html">Destinations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="12" cy="10" r="3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle></svg>
+          <div>No. 25 Ayalur Muthayiah<br>Street, Periyamet</div>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          <div>+91 7358219346</div>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><polyline points="22,6 12,13 2,6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></polyline></svg>
+          <div>info@roamify.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Roamify Luxury Travel. All rights reserved.</div>
+      <div class="footer-socials">
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
